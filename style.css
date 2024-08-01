@@ -1,0 +1,128 @@
+ body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0;
+     padding: 0;
+     max-height: 100vh;
+     min-height: 100vh;
+
+ }
+
+ .colunas {
+     max-width: 920px;
+     border-radius: 16px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     overflow: hidden;
+ }
+
+ .card1 {
+     background: #E28625;
+     width: 212px;
+     height: 408px;
+     padding: 48px;
+     border-top-left-radius: 16px;
+     border-bottom-left-radius: 16px;
+ }
+
+ h1 {
+     font-family: "Big Shoulders Display";
+     font-weight: 700;
+     font-size: 40px;
+     color: #F2F2F2;
+ }
+
+
+ p {
+     font-family: "Lexend Deca";
+     color: #FFFFFF;
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 25px;
+     opacity: 0.75;
+     margin-bottom: 83px;
+
+ }
+
+ .sedans {
+     background: white;
+     color: #E28625;
+     font-family: "Lexend Deca";
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 25px;
+     border-radius: 32px;
+     border: 0;
+     padding: 12px 32px;
+
+
+ }
+
+ .sedans:hover {
+     border: 2.5px solid white;
+     color: white;
+     background-color: transparent;
+ }
+
+ .card2 {
+     background: #006971;
+     width: 212px;
+     height: 408px;
+     padding: 48px;
+
+ }
+
+ .suvs {
+     background: white;
+     color: #006971;
+     font-family: "Lexend Deca";
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 25px;
+     border-radius: 32px;
+     border: 0;
+     padding: 12px 32px;
+ }
+
+ .suvs:hover {
+    border: 2.5px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+
+ .card3 {
+     background: #004140;
+     width: 212px;
+     height: 408px;
+     padding: 48px;
+     border-top-right-radius: 16px;
+     border-bottom-right-radius: 16px;
+ }
+
+ .luxury {
+     background: white;
+     color: #004140;
+     font-family: "Lexend Deca";
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 25px;
+     border-radius: 32px;
+     border: 0;
+     padding: 12px 32px;
+ }
+
+ .luxury:hover {
+    border: 2.5px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+
+@media (max-width:400px) {
+ 
+    .colunas {
+       grid-template-columns: 1fr;
+    }
+}
